@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SNAKE GAME </title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="switcher">
+        <div class="buttonContainer">
+          <button class=" button theme1">Light Theme</button>
+          <button class="button theme2">Dark Theme</button>
+        </div>
+  </div>
+
+    <div id="boardInfo">
+        <button id="start">START</button>
+        <div id="score">
+            Puntos: <div id="scoreBoard"></div>
+        </div>
+    </div>
+
+    <div>
+        <button id="buttonOne"> COMO JUGAR </button>
+    </div>
+
+    <a href="jugadores.html" target="_blank">
+        <button id="jugadores"> MEJORES <br> JUGADORES </button>
+    </a>
+
+    <div id="board"></div>
+
+    <div id="gameOver">
+        GAME OVER <div id="pressStart"> Presiona START para volver a jugar </div>
+    </div>
+
+    <!--
+
+    <div class="container my-5 text-center">
+    <button class="btn btn-danger w-100" onclick="get()"> MEJORES <br> JUGADORES </button>
+    <div class="mt-5" id="contenido"> </div>
+    </div>
+
+    -->
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="juego.js"> </script>
+
+</body>
+</html>
+
